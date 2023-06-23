@@ -6,9 +6,9 @@ public class Spring5Bean04Factory {
         Spring5Bean03 obj = null;
         if(bean.equals("kor") ){
             obj = new Spring5Bean03Kor();
-        } else if (bean.equals("Jpn")) {
+        } else if (bean.equals("jpn")) {
             obj = new Spring5Bean03Jpn();
-        } else if (bean.equals("Eng")) {
+        } else if (bean.equals("eng")) {
             obj = new Spring5Bean03Eng();
         }
         return obj;
