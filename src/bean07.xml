@@ -8,7 +8,10 @@
     <bean id="jpn" class="hello.spring.bean.Spring5Bean03Jpn" /> 행 단위 주석-->
 
     <!-- -->
-    <context:component-scan base-package="hello.spring.annotation"/>
+
+            <!--클래스 파일을 스캔하고 쓸 파일만 관리할 객체로 선택-->
+    <context:component-scan
+            base-package="hello.spring.annotation"/>
 
 
 
