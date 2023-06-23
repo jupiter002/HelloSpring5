@@ -7,7 +7,6 @@ public class Spring5App03 {
     //인삿말을 한국어,영어,일본어로 인터페이스로 출력하도록 기능 추가
     //인터페이스는 불완전 클래스, 객체화 X
 
-
     // 인터페이스를 도입하면
     // 확장성이 높고 유연한 코드를 작성할 수 있음
     // 또한, 객체간의 tightly coupled를 피할 수 있고
@@ -33,7 +32,5 @@ public class Spring5App03 {
         app03 = new Spring5Bean03Jpn();
         app03.sayHello("スプリング5");
     }
-
-
 
 }
