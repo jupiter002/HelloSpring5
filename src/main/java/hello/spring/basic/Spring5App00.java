@@ -1,7 +1,7 @@
 package hello.spring.basic;
 
 public class Spring5App00 {
-    private static void sayHello(String name){
+    public static void sayHello(String name){
         System.out.println(name+"입니다 Hello,World");
     }
     public static void main(String[] args){
@@ -12,6 +12,7 @@ public class Spring5App00 {
         // 즉, 유지보수의 어려움이 발생
         // 또한, 개발자가 여러명인 경우 업무분담의 어려움도 존재
         // 해결 : 인삿말 출력 기능을 담당하는 클래스를 따로 작성
+        Spring5App00 app00 = new Spring5App00();
         sayHello("jupiter");
 
 
