@@ -13,9 +13,9 @@ public class Spring5App03 {
     // 객체간의 의존성을 낮출수도 있음
 
     // 하지만, new 연산자로 객체를 생성하는 코드가 노출됨
-    // 다시 말해, Spring5Bean03은
-    // Spring5Bean03Kor, Spring5Bean03Eng,
-    // Spring5Bean03Jpn에 의존적이라는 의미
+    // 다시 말해, Spring5Bean03(Interface)은
+    // Spring5Bean03Kor(class), Spring5Bean03Eng(class),
+    // Spring5Bean03Jpn(class)에 의존적이라는 의미
 
     // 해결 : factory 패턴을 이용해서
     // 객체생성을 전담하는 클래스를 만들어
